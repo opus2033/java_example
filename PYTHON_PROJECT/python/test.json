@@ -1,0 +1,28 @@
+[
+    { 
+        "metric": "mqtt.home.pcroom",
+        "timestamp": 1346846400,
+        "value": 22.5,
+        "tags": { 
+            "type": "temperature"
+        } 
+    }, 
+{ 
+    "metric": "mqtt.home.pcroom",
+    "timestamp": 1346846400,
+    "value": 18.2,
+    "tags": {
+        "type": "humidity"
+    } 
+}, 
+{ 
+    "metric": "mqtt.home.pcroom",
+    "timestamp": 1346846400,
+    "value": 22.3,
+    "tags": {
+        "type": "dust"
+    } 
+} 
+]
+
+

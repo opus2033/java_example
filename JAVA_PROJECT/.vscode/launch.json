@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test77",
+            "request": "launch",
+            "mainClass": "My_First_Project.test77",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test2",
+            "request": "launch",
+            "mainClass": "My_First_Project.test2",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test1",
+            "request": "launch",
+            "mainClass": "My_First_Project.test1",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tryangler",
+            "request": "launch",
+            "mainClass": "RepeatExample.src.main.java.tryangler",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RepeatExample<JAVA_PROJECT_574039b4>",
+            "request": "launch",
+            "mainClass": "RepeatExample.src.main.java.RepeatExample",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PublisherExample<JAVA_PROJECT_574039b4>",
+            "request": "launch",
+            "mainClass": "publish.src.main.java.PublisherExample",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-repeatexample<JAVA_PROJECT_574039b4>",
+            "request": "launch",
+            "mainClass": "repeat.src.main.java.repeatexample",
+            "projectName": "JAVA_PROJECT_574039b4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<gradle-hello-world>",
+            "request": "launch",
+            "mainClass": "hello.HelloWorld",
+            "projectName": "gradle-hello-world"
+        }
+    ]
+}

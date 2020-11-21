@@ -1,0 +1,8 @@
+flask
+flask-restful
+flask_restx
+pyjwt
+bcrypt
+python-dateutil
+google-api-python-client
+oauth2client

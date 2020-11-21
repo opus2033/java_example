@@ -1,0 +1,23 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: hello
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: hello
+            image: hifrodo/:v1
+            command: ["/test/copy.sh"]
+            volumeMounts:
+             - mountPath: /var/log/nginx
+               name:  log
+          restartPolicy: OnFailure
+          volumes:
+            - hostPath:
+               path: /home/freud/log
+               type: Directory
+              name:  log

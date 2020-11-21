@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name:  backup
+spec:
+  template:
+    metadata:
+      name:  backup
+    spec:
+      containers:
+      - name: centos
+        image: freud2187/test:v1
+        command: ["cp",  "/var/log/nginx/access.log", "/var/log/nginx/backup.log"]
+        volumeMounts:
+         - mountPath: /var/log/nginx
+           name: log
+      restartPolicy: OnFailure    
+      volumes:
+        - hostPath:
+           path: /home/freud/log
+           type: Directory
+          name: log
+status: {}

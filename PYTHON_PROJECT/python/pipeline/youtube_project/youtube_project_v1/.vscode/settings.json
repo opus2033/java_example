@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "terminal.integrated.setLocalVariables" : true,
+    // "terminal.integrated.shellArgs.windows": ["/K", "chcp 65001"],
+    "python.pythonPath": "C:\\Python35\\python.exe",
+}
